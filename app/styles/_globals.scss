@@ -1,9 +1,12 @@
 // globals.scss
 
 body {
-  background: #fafafa;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
+  background: $white;
+  font-family: $font-stack;
+  color: $blue;
+  font-size: 0.9em;
+  font-weight: 500;;
+  letter-spacing: 0.05em;
 }
 
 .hero-unit {

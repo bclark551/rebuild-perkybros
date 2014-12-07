@@ -10,6 +10,7 @@
   <!-- build:css styles/vendor.css -->
   <!-- bower:css -->
   <link rel="stylesheet" href="bower_components/normalize.css/normalize.css" />
+  <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css" />
   <!-- endbower -->
   <!-- endbuild -->
 
@@ -48,10 +49,10 @@
 
   <!-- .social-media -->
   <ul class="social">
-    <li><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
-    <li><a href="#">Twitter</a></li>
-    <li><a href="#">Pinterest</a></li>
-    <li><a href="#">Email</a></li>
+    <li><a href="#"><i class="fa fa-facebook"></i><span class="visuallyhidden">Facebook</span></a></li>
+    <li><a href="#"><i class="fa fa-twitter"></i><span class="visuallyhidden">Twitter</span></a></li>
+    <li><a href="#"><i class="fa fa-pinterest"></i><span class="visuallyhidden">Pinterest</span></a></li>
+    <li><a href="#"><i class="fa fa-envelope"></i><span class="visuallyhidden">Email</span></a></li>
   </ul>
 </div>
 
@@ -60,18 +61,28 @@
   <img class="sample-image" src="images/modules/web_title.png" alt="Website Title">
 
   <!-- .web-title -->
-  <h1 class="web-title">Perky Brothers LLC</h1>
+  <h1 class="web-title">
+    <span class="perky">Perky</span>
+    <span class="brothers">Brothers</span>
+    <span class="llc">LLC</span>
+  </h1>
 </div>
 
 <div class="css-module">
-  <h2>.article-block</h2>
+  <h2>.article-block1</h2>
   <img class="sample-image" src="images/modules/article-block.png" alt="Article">
 
   <!-- .article-block -->
+<div class="article-block1">
+  <article class="bedroc">
+    <h2><a href="#">Bedroc</a></h2>
+    <a href="#"><img src="images/Bedroc.jpg" width="453px"></a>
+  </article>
   <article class="treadwell">
     <h2><a href="#">Treadwell</a></h2>
-    <a href="#"><img src="images/Treadwell.jpg"></a>
+    <a href="#"><img src="images/Treadwell.jpg" width="450"></a>
   </article>
+</div>
 </div>
 
 <div class="css-module">
@@ -87,16 +98,18 @@
   <img class="sample-image" src="images/modules/footer-right.png" alt="Contact">
 
   <!-- .footer-left -->
-  <p>
-    <span class="address">1200 Clinton Street</span>
-    <span class="suite">Suite No. 221</span>
-    <span class="city-state">Nashville, TN 37203</span>
-    <span class="map"><a href="#">Map It</a></span>
-  </p>
-  <p>
-    <span class="phone">(615) 760 5568</span>
-    <span class="email"><a href="#">hi@perkybros.com</a></span>
-  </p>
+  <div class="footer-left">
+    <p class="address">
+      <span class="address">1200 Clinton Street</span>
+      <span class="suite">Suite No. 221</span>
+      <span class="city-state">Nashville, TN 37203</span>
+      <span class="map"><a href="#">Map It</a></span>
+    </p>
+    <p class="contact">
+      <span class="phone">(615) 760 5568</span>
+      <span class="email"><a href="#">hi@perkybros.com</a></span>
+    </p>
+</div>
 </div>
 
 

@@ -1,0 +1,20 @@
+.social {
+  margin: 0;
+  padding: 0;
+  font-size: 1.25em;
+  ul {
+    @include clearfix;
+  }
+  li {
+    float: left;
+    list-style-type: none;
+    margin-right: 0.75em;
+  }
+  a {
+    text-decoration: none;
+    color: $blue;
+  }
+  span {
+    @include visuallyhidden;
+  }
+}
