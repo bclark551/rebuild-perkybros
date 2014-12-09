@@ -4,27 +4,27 @@
     float: left;
   }
 
-  article img a {
-    text-decoration: none;
-    padding-bottom: 0.25em;
-    border-bottom: 1px solid $blue;
-    color: $blue;
-  }
-
   h2 {
-      font-size: 1em;
-      font-weight: 500;
-      text-align: center;
+    font-size: 1em;
+    font-weight: 500;
+    text-align: center;
+    a {
+      color: $blue;
+      text-decoration: none;
+      padding-bottom: 0.25em;
+      border-bottom: 1px solid $blue;
+    }
   }
   img {
     max-width: 100%;
     border: 10px solid $white;
+    z-index: -10;
     &:hover {
       border: 10px solid $blue;
     }
   }
-}
+
 
 .bedroc {
-  margin-right: 15px;
+  margin-right: 10px;
 }
