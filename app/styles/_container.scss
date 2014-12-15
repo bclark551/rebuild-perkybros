@@ -1,0 +1,18 @@
+.container {
+  @include clearfix;
+  width: 100%;
+  position: relative;
+  .article-block {
+    width: 48%;
+    &.block-small {
+      height: 20em;
+    }
+    &.block-medium {
+      height: 40em;
+    }
+    &.block-large {
+      height: 40em;
+      width: 98%;
+    }
+  }
+}

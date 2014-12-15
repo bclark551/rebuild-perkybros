@@ -1,0 +1,20 @@
+.footer-right {
+  @include clearfix;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+  p {
+    float: left;
+    max-width: 11em;
+    margin-right: 5em;
+  }
+  a {
+    text-decoration: none;
+    color: $blue;
+    border-bottom: 1px solid $blue;
+    padding-bottom: 0.25em;
+    &:hover {
+      border-bottom: none;
+    }
+  }
+}

@@ -1,5 +1,9 @@
 // globals.scss
 
+html {
+  max-width: 2000px;
+  margin: 2em 5.5em;
+}
 body {
   background: $white;
   font-family: $font-stack;
@@ -7,6 +11,8 @@ body {
   font-size: 0.9em;
   font-weight: 500;;
   letter-spacing: 0.05em;
+  margin: auto;
+
 }
 
 .hero-unit {

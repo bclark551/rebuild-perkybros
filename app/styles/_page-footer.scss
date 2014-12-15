@@ -1,0 +1,15 @@
+.page-footer {
+  border-top: 1px solid $blue;
+  position: relative;
+  padding-bottom: 10em;
+  .copyright {
+    position: absolute;
+    top: 0;
+    left: 1em;
+  }
+  .footer-right {
+    position: absolute;
+    top: 0;
+    left: 60%;
+  }
+}

@@ -1,13 +1,20 @@
-.web-title {
-  color: $blue;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  line-height: 1.15em;
-  font-size: 4.6em;
-  text-align: center;
-  max-width: 8.5em;
-  margin: 0;
-}
-.llc {
-  font-size: .57em;
+.title-container {
+  position: relative;
+  .web-title {
+    position: fixed;
+    z-index: 10;
+    top: 30%;
+    left:27.5%;
+    color: $blue;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    line-height: 1.15em;
+    font-size: 4.6em;
+    text-align: center;
+    max-width: 8.5em;
+
+  }
+  .llc {
+    font-size: .57em;
+  }
 }

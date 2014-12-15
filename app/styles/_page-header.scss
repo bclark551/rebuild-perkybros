@@ -1,0 +1,23 @@
+.page-header {
+  position: relative;
+  padding-bottom: 9em;
+  .nav-social {
+    position: absolute;
+    top: .5em;
+    right: .25em;
+    width: 50%;
+  }
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 1em;
+  }
+  .main-nav {
+    float: left;
+  }
+  .social {
+    position: absolute;
+    top: .5em;
+    right: 0;
+  }
+}
